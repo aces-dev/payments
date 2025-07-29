@@ -3,7 +3,7 @@ const FIREBASE_CONN = require('./config');
 
 admin.initializeApp({
   credential: admin.credential.cert(FIREBASE_CONN),
-  projectId: "aces-mw",  // Add your project ID here
+  projectId: FIREBASE_CONN.project_id,  // Add your project ID here
 });
 
 const db = admin.firestore();
