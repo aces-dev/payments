@@ -1,10 +1,10 @@
 {
   "name": "airtel-payment-api",
   "version": "1.0.0",
-  "description": "A Node.js app using Express and Firebase Admin SDK",
-  "main": "main.js",
+  "description": "A Node.js service for Payments using Express and Firebase Admin SDK",
+  "main": "index.js",
   "scripts": {
-    "start": "node main.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
