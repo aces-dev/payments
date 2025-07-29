@@ -6,7 +6,7 @@ class TokenManager {
   }
 
   async get() {
-    console.log(`Config ${CONFIG}`);
+    console.log('Config Data', CONFIG);
     const res = await fetch(CONFIG.AUTH_URL, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
